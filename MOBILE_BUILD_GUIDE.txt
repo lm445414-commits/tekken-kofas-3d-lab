@@ -1,0 +1,16 @@
+BUILD APK USING ONLY YOUR ANDROID PHONE
+
+1. Open https://github.com in Chrome and sign in or create a free account.
+2. Tap +, choose New repository, give it a name such as tekken-kofas-3d-lab.
+3. Set it to Public or Private, then create the repository.
+4. In the repository choose Add file > Upload files.
+5. Extract this ZIP on your phone first, then upload all files and folders INSIDE the project folder (including .github). If the GitHub mobile page cannot upload folders, use Chrome's Desktop site or GitHub's web upload page.
+6. Commit the uploaded files.
+7. Open the Actions tab, choose "Build Android APK", then tap "Run workflow".
+8. Wait for the workflow to finish. Open the completed run, scroll to Artifacts, and download TEKKEN-KOFAS-3D-LAB-debug-apk.
+9. Extract the downloaded artifact ZIP and install app-debug.apk. Android may ask you to allow installation from your browser/files app.
+
+IMPORTANT
+- This produces a debug APK for testing, not a Play Store release.
+- The current app is an early prototype. Offline OBJ and ASCII STL preview are included; BIN/DAT/PAK are only file-selection/inspection, not game extraction. Texture/body controls are previews, not full UV painting or sculpting.
+- Never upload private signing keys or passwords to a public repository.
